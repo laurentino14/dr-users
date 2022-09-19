@@ -5,6 +5,9 @@ go 1.19
 require github.com/labstack/echo/v4 v4.9.0
 
 
+replace github.com/laurentino14/dr-users/server/routes => ./server/routes
+replace github.com/laurentino14/dr-users/server => ./server
+
 require github.com/stretchr/testify v1.8.0 // indirect
 
 require (
